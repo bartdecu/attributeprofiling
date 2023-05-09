@@ -5,7 +5,7 @@ to attribute level profiles that are not bound to a specific resource.
 
 In the case of implementation by a preprocessor, the attribute level profile will result in a new profile (StructureDefinition) for each existing StructureDefinition that matches the contraints expressed in the attribute level profile.
 
-The author defines an attribute profile in a file (here gender.koi)
+The author defines an attribute profile in a file (here input/fsh/gender.koi)
 
 This file contains the following information
 * the name of an attribute, without linking it to a specific StructureDefinition (id).
