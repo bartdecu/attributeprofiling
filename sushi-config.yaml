@@ -164,7 +164,7 @@ menu:
     Value Sets: artifacts.html#4
   Downloads: downloads.html
   Changes: changes.html
-  History: ../history.html
+#  History: ../history.html
 
 # The parameters property represents IG.definition.parameter. Rather
 # than a list of code/value pairs (as in the ImplementationGuide

@@ -1,0 +1,14 @@
+AttributeProfile: gender
+//Use all attributes from ElementDefinition
+* id = "gender" //attribute to be constrained (root of FHIRPATH omitted) 
+* path = "gender and qualification.not()" //Any FHIRPATH, but only evaluated with respect to the navigation model of the StructureDefinition under consideration 
+//i.e.  the and/or combination of the validity of every path w.r.t. the navigation model of the StructureDefinition determines the applicability
+//(root/context allowed)
+// note that Practitioner, who also has a gender attribute, is not generated because Practitioner.qualification exists in the navigation model of Practitioner
+// note that the omission of the root can function as a wildcard as described in http://hl7.org/fhirpath/N1/#path-selection
+* min = 1
+* max = "1"
+* mustSupport = true
+
+
+ 
