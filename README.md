@@ -1,4 +1,4 @@
-##Resourceless attribute profiling in FHIR
+## Resourceless attribute profiling in FHIR
 
 This is a mock example of the functionality that a preprocessor (e.g. SUSHI) could have with regard
 to attribute level profiles that are not bound to a specific resource.
